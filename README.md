@@ -3,7 +3,7 @@ TPO Desarrollo Web HTML, CSS y Javascript
 
 INTEGRANTES: Gabriel Maximiliano Aguirre Flaska, Maria Florencia Fernanda Polo, Mercedes Anahi Vallejo.
 
-¿Qué hay que entregar?
+¿Qué hay que entregar?.
 
 El TPO deberá cumplir con los siguientes requisitos:
 
