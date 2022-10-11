@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +12,51 @@
     <!--CSS-->
     <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
-    
+
+    <nav>
+        <section>
+            <a href="../index.html">
+                <img src="../img/logo_verde_fondo_transparente.png" alt="">
+            </a>
+        </section>
+        <section>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./quienesSomos.html">Quienes Somos</a></li>
+                <li><a href="./pages/restaurantes.html">Restaurantes</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </section>
+    </nav>
+
+    <main>
+        <h2>Contacto</h2>
+        <h3>¿Querés hacernos una consulta?</h3>
+        <p>Completá el formulario y te responderemos a la brevedad</p>
+        <form action="">
+            <fieldset>
+                <legend> Datos personales</legend>
+                <label for="name">Nombre</label>
+                <input type="text" name="name" id="name">
+
+                <label for="lastname">Apellido</label>
+                <input type="text" name="lastname" id="lastname">
+
+            </fieldset>
+            <fieldset>
+                <legend> Datos del usuario</legend>
+                <label for="email">Mail</label>
+                <input type="email" name="email" id="imail" placeholder="Escribi aca tu mail">
+
+            </fieldset>
+            <fieldset>
+                <label for="comments">Comentarios</label>
+                <textarea name="comments" id="comments" cols="30" rows="10" maxlength="100"></textarea>
+
+    </main>
+
 </body>
+
 </html>
