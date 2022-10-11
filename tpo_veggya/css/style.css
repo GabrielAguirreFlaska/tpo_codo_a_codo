@@ -15,4 +15,25 @@
     padding-left: 30px;
 }
 
+.nav_lista{
+    display: block;
+}
 
+.nav_lista ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    background-color: #63BB3C;
+}
+
+.nav_lista ul li{
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 30px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.fondo_principal img{
+    width: 1518px;
+}
