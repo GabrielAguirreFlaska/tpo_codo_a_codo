@@ -85,3 +85,54 @@ footer{
     width: 25px;
     margin: 20px;
 }
+
+.main_quienes_somos{
+    padding: 50px;
+    margin-top: 80px;
+}
+
+.main_quienes_somos h2{
+    color: #23894E;
+}
+
+.main_quienes_somos .h2_1{
+    text-align:left;
+    margin-left: 10px;
+}
+
+.main_quienes_somos .p1{
+    text-align: left;
+    margin-right: 400px;
+}
+
+.main_quienes_somos .h2_2{
+    text-align:right;
+    margin-right: 10px;
+}
+
+.main_quienes_somos .p2{
+    text-align: right;
+    margin-left: 400px;
+}
+
+.main_quienes_somos .h2_3{
+    text-align:left;
+    margin-left: 10px;
+}
+
+.main_quienes_somos .p3{
+    text-align: left;
+    margin-right: 400px;
+}
+
+.main_quienes_somos .h2_4{
+    text-align:right;
+    margin-right: 10px;
+}
+
+.lista_quienes_somos{
+    text-align: right;
+}
+.lista_quienes_somos li{
+    list-style: none;
+}
