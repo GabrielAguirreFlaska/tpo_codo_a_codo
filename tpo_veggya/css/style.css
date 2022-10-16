@@ -250,3 +250,127 @@ footer{
     margin-top: -145px;
 }
 
+.pizza_popular_img{
+    width: 100%;
+    max-width: 100%;
+}
+
+.pizza_popular_titulo{
+    text-align: center;
+    color: #23894E;
+    margin: 20px;
+    font-size: 50px;
+}
+
+.resenia_e_imagen{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-top: 100px;
+}
+
+.imagen img {
+    width: 450px;
+    border-radius: 10px;
+    margin-right: 50px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.resenia{
+    padding-right: 200px;
+    padding-left: 100px;
+}
+
+.imagen_y_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-top: 100px;
+}
+
+.imagen_menu img{
+    width: 500px;
+    border-radius: 10px;
+    margin-left: 50px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.menu h2{
+    text-align: center;
+    margin-bottom: 30px;
+    color:#23894E;
+}
+
+.menu h3{
+    color: #63BB3C;
+}
+
+.menu p {
+    padding-right: 20px;
+}
+
+.menu h3, p{
+    padding-left: 20px;
+}
+
+
+.galeria_resto1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin-top: 200px;
+}
+
+.galeria_resto1 img{
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.mapa h2 {
+    color: #23894E;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.mapa .iframe{
+    width: 100%;
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.galeria_resto2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin-top: 200px;
+}
+
+.galeria_resto2 img{
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.galeria_resto3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin-top: 200px;
+}
+
+.galeria_resto3 img{
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
