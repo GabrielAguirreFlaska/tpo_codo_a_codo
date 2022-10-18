@@ -658,6 +658,24 @@ footer{
         bottom: 0;
         width: 100%;
     }
+
+    .formulario{
+        width: 400px;
+        max-width: 100%;
+        margin: auto;
+        margin-top: 60px;
+        padding: 10px;
+        box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
+        position: relative;
+    }
+    
+    .formulario__titulo{
+        text-align: center;
+        margin-top: 0;
+        color: #23894E;
+        font-size: 25px;
+        font-weight: bold;
+    }
 }
 
 @media only screen and (max-width: 568px){
@@ -812,5 +830,28 @@ footer{
         position:absolute;
         bottom: 0;
         width: 100%;
+    }
+
+    .formulario{
+        width: 300px;
+        max-width: 100%;
+        margin: auto;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        padding: 10px;
+        box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
+        position: relative;
+    }
+    
+    .formulario__titulo{
+        text-align: center;
+        margin-top: 0;
+        color: #23894E;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .formulario__label{
+        font-size: 10px;
     }
 }
