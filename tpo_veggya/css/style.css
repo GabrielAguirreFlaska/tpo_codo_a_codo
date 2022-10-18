@@ -15,13 +15,13 @@ nav{
 .nav_logo img{
     flex-wrap: wrap;
     flex-direction: row;
-    width:150px;
+    width:250px;
 }
 
 .nav_lista ul{
     display: flex;
     flex-direction: row;
-    justify-content:center;
+    justify-content:space-around;
     background-color: white;
 }
 
@@ -35,7 +35,12 @@ nav{
     text-decoration: none;
     color: #23894E;
     display: block;
-    
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav_lista ul li a:hover{
+    color: rgb(245, 192, 32);
 }
 
 .carrusel {
@@ -343,6 +348,15 @@ footer{
     max-width: 100%;
     padding-left: 20px;
     padding-right: 20px;
+    margin-bottom: 50px;
+}
+
+.sucursal{
+    margin-left: 40px;
+    color: #23894E;
+    padding-bottom: 40px;
+    padding-top: 20px;
+
 }
 
 .galeria_resto2{
