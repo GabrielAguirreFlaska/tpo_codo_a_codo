@@ -83,6 +83,7 @@ footer{
 .redes h5{
     color: #23c2ca;
     margin-top: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .imagenes_footer {
@@ -101,6 +102,12 @@ footer{
 
 .main_quienes_somos h2{
     color: #23894E;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.main_quienes_somos p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .main_quienes_somos .h2_1{
@@ -515,6 +522,65 @@ footer{
     .nav_logo img{
         width: 200px;
     }
+
+    .main_quienes_somos{
+        padding-left: 15px;
+        margin-top: 60px;
+    }
+    
+    .main_quienes_somos h2{
+        color: #23894E;
+        font-size: 22px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+    }
+    
+    .main_quienes_somos p{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .main_quienes_somos .h2_1{
+        text-align:left;
+        margin-left: 10px;
+    }
+    
+    .main_quienes_somos .p1{
+        text-align: left;
+        margin-right: 120px;
+    }
+    
+    .main_quienes_somos .h2_2{
+        text-align:right;
+        margin-right: 10px;
+    }
+    
+    .main_quienes_somos .p2{
+        text-align: right;
+        margin-left: 120px;
+    }
+    
+    .main_quienes_somos .h2_3{
+        text-align:left;
+        margin-left: 10px;
+    }
+    
+    .main_quienes_somos .p3{
+        text-align: left;
+        margin-right: 120px;
+    }
+    
+    .main_quienes_somos .h2_4{
+        text-align:right;
+        margin-right: 10px;
+    }
+    
+    .lista_quienes_somos{
+        text-align: right;
+    }
+    .lista_quienes_somos li{
+        list-style: none;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
 }
 
 @media only screen and (max-width: 568px){
@@ -547,5 +613,66 @@ footer{
     .imagenes_footer a img{
         width: 20px;
         margin: 15px;
+    }
+
+    .main_quienes_somos{
+        padding-left: 5px;
+        margin-top: 50px;
+    }
+    
+    .main_quienes_somos h2{
+        color: #23894E;
+        font-size: 18px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+    }
+    
+    .main_quienes_somos p{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 13px;
+    }
+
+    .main_quienes_somos .h2_1{
+        text-align:left;
+        margin-left: 10px;
+    }
+    
+    .main_quienes_somos .p1{
+        text-align: left;
+        margin-right: 50px;
+    }
+    
+    .main_quienes_somos .h2_2{
+        text-align:right;
+        margin-right: 0px;
+    }
+    
+    .main_quienes_somos .p2{
+        text-align: right;
+        margin-left: 50px;
+    }
+    
+    .main_quienes_somos .h2_3{
+        text-align:left;
+        margin-left: 10px;
+    }
+    
+    .main_quienes_somos .p3{
+        text-align: left;
+        margin-right: 50px;
+    }
+    
+    .main_quienes_somos .h2_4{
+        text-align:right;
+        margin-right: 10px;
+    }
+    
+    .lista_quienes_somos{
+        text-align: right;
+    }
+    .lista_quienes_somos li{
+        list-style: none;
+        font-size: 13px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 }
