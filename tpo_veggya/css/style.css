@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 nav{
@@ -150,6 +152,7 @@ footer{
 }
 .lista_quienes_somos li{
     list-style: none;
+    margin-bottom: 10px;
 }
 
 .tarjetas_restos{
@@ -387,12 +390,65 @@ footer{
     margin-bottom: 50px;
 }
 
-.sucursal{
+.horarios_pizza_popular{
     margin-left: 40px;
+}
+
+.horarios_pizza_popular h5{
+    margin-bottom: 10px;
+}
+
+.horarios_pizza_popular p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    padding: 2px;
+}
+
+.horarios_bullanga{
+    margin-left: 40px;
+}
+
+.horarios_bullanga h5{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.horarios_bullanga a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    color: #63BB3C;
+}
+
+.horarios_bullanga a:hover{
+    color: red;
+}
+
+.horarios_bullanga p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    padding: 2px;
+}
+
+.horarios_parri_vegana{
+    margin-left: 40px;
+}
+
+.horarios_parri_vegana h5{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.horarios_parri_vegana p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    padding: 2px;
+}
+
+.sucursal{
+    margin-left: 38px;
     color: #23894E;
     padding-bottom: 40px;
     padding-top: 20px;
-
 }
 
 .galeria_resto2{
