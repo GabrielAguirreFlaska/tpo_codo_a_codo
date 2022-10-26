@@ -481,6 +481,19 @@ footer{
     position: relative;
 }
 
+#map{
+    height: 500px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.h2_api{
+    text-align: center;
+    color: #23894E;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 20px;
+}
+
 @media only screen and (max-width: 768px) {
     .hamburger {
         position: fixed;
